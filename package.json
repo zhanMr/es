@@ -1,0 +1,32 @@
+{
+  "name": "es",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc-init": "tsc --init",
+    "build": "tsc",
+    "eslint-init": "eslint --init",
+    "eslint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanMr/es.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhanMr/es/issues"
+  },
+  "homepage": "https://github.com/zhanMr/es#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.1.3"
+  }
+}
